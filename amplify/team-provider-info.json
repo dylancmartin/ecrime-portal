@@ -1,0 +1,39 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "cag-ecrime-master-20190828124408-authRole",
+            "UnauthRoleArn": "arn:aws:iam::457651165565:role/cag-ecrime-master-20190828124408-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::457651165565:role/cag-ecrime-master-20190828124408-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "cag-ecrime-master-20190828124408-deployment",
+            "UnauthRoleName": "cag-ecrime-master-20190828124408-unauthRole",
+            "StackName": "cag-ecrime-master-20190828124408",
+            "StackId": "arn:aws:cloudformation:us-west-2:457651165565:stack/cag-ecrime-master-20190828124408/346fe310-c9cc-11e9-a0ec-06c01b62978e"
+        },
+        "categories": {
+            "auth": {
+                "Cognito": {}
+            },
+            "function": {
+                "S3Trigger0952a7ce": {}
+            }
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "cag-ecrime-dev-20190828124619-authRole",
+            "UnauthRoleArn": "arn:aws:iam::457651165565:role/cag-ecrime-dev-20190828124619-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::457651165565:role/cag-ecrime-dev-20190828124619-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "cag-ecrime-dev-20190828124619-deployment",
+            "UnauthRoleName": "cag-ecrime-dev-20190828124619-unauthRole",
+            "StackName": "cag-ecrime-dev-20190828124619",
+            "StackId": "arn:aws:cloudformation:us-west-2:457651165565:stack/cag-ecrime-dev-20190828124619/82ad0800-c9cc-11e9-bf62-0af8c7390b1e"
+        },
+        "categories": {
+            "auth": {
+                "Cognito": {}
+            }
+        }
+    }
+}
